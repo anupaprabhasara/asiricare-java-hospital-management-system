@@ -31,8 +31,7 @@
     <main class="flex-1 p-6 space-y-6">
 
       <!-- Form Card -->
-      <form action="${pageContext.request.contextPath}/report" method="POST"
-        class="bg-white shadow-lg rounded-lg p-8 w-full max-w-4xl mx-auto">
+      <form action="${pageContext.request.contextPath}/report" method="POST" class="bg-white shadow-lg rounded-lg p-8 w-full">
 
         <input type="hidden" name="action" value="create">
 

@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 
-<body class="min-h-screen flex text-gray-900" style="background: linear-gradient(to right, #fbc2eb, #a6c1ee);">
+<body class="min-h-screen flex text-gray-900" style="background: linear-gradient(to right, #a18cd1, #fbc2eb);">
 
   <!-- Sidebar -->
   <%@ include file="../partials/sidebar.jsp" %>
@@ -59,7 +59,7 @@
               <th class="px-6 py-4 text-center">Actions</th>
             </tr>
           </thead>
-          <tbody id="userTable" class="text-gray-700">
+          <tbody id="table" class="text-gray-700">
             <c:choose>
               <c:when test="${not empty reports}">
                 <c:forEach var="report" items="${reports}">

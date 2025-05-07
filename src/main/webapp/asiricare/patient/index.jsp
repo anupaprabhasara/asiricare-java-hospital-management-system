@@ -60,7 +60,7 @@
               <th class="px-6 py-4 text-center">Actions</th>
             </tr>
           </thead>
-          <tbody id="userTable" class="text-gray-700">
+          <tbody id="table" class="text-gray-700">
             <c:choose>
               <c:when test="${not empty patients}">
                 <c:forEach var="patient" items="${patients}">
